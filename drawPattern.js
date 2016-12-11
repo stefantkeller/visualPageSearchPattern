@@ -9,9 +9,9 @@ function addText(towhat, text){
     towhat.appendChild(_text);
 }
 
-function addCell(table, color){
+function addCell(table, color, height){
     var row = addNewElement(table, "tr");
     var cell = addNewElement(row, "td");
-    cell.style = "background-color: " + color;
+    cell.style = "background-color: " + color + "; height: " + height;
 }
 

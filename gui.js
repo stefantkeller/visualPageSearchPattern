@@ -20,7 +20,10 @@ var headcell = addNewElement(headrow, "th");
 
 addText(headcell, "Head cell");
 
-addCell(table, "#0f0");
-addCell(table, "#00f");
-addCell(table, "#0ff");
+var cellHeight = 20 + "px";
+console.log(cellHeight)
+
+addCell(table, "#0f0", cellHeight);
+addCell(table, "#00f", cellHeight);
+addCell(table, "#0ff", cellHeight);
 

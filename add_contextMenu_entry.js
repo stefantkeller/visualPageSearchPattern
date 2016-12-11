@@ -6,13 +6,13 @@ browser.contextMenus.create({
 browser.contextMenus.onClicked.addListener(function(info, tab){
     if (info.menuItemId == "visualPageSearchPattern") {
         browser.tabs.executeScript({
+            file: "drawPattern.js"
+        });
+        browser.tabs.executeScript({
             file: "gui.js"
         });
         browser.tabs.insertCSS({
             file: "gui.css"
-        });
-        browser.tabs.executeScript({
-            file: "drawPattern.js"
         });
     }
 });
