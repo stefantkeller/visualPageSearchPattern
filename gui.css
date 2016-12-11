@@ -1,0 +1,8 @@
+div.vPSP {
+    background-color: #000;
+    top: 0px;
+    position: fixed;
+    z-index: 99;
+    /**/
+    font-size: 40pt;
+}
