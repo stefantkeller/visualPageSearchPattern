@@ -2,7 +2,6 @@
 // its appearance we can control in the .css through this class name
 var maindiv = document.createElement("div");
 maindiv.style.height = window.outerHeight + "px";
-maindiv.style.width = "0.5em";
 
 var text = document.createTextNode("Height: " + window.outerHeight);
 maindiv.appendChild(text);
