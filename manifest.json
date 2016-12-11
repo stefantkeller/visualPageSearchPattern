@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "visualPageSearchPattern",
+    "version": "0.1",
+    "description": "Visualizes relative place of occurence of different search terms on a (long) page.",
+
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ],
+
+    "background": {
+        "scripts": ["add_contextMenu_entry.js"]
+    }
+}
