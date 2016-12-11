@@ -7,3 +7,23 @@ div.vPSP {
     /**/
     font-size: 40pt;
 }
+
+div.vPSP > table {
+    border: 0px;
+    border-spacing: 0px;
+}
+
+div.vPSP > table > tr {
+    border: 0px;
+}
+
+div.vPSP > table > tr > th {
+    background-color: #f00;
+}
+
+div.vPSP > table > tr > td {
+    height: 20px;
+    background-color: #fff;
+    border: 0px;
+    margin: 0px;
+}

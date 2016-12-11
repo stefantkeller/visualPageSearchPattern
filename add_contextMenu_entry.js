@@ -11,5 +11,8 @@ browser.contextMenus.onClicked.addListener(function(info, tab){
         browser.tabs.insertCSS({
             file: "gui.css"
         });
+        browser.tabs.executeScript({
+            file: "drawPattern.js"
+        });
     }
 });
